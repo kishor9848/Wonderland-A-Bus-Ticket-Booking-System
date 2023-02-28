@@ -8,9 +8,8 @@
 * Make Sure To Use At Least Codeblocks-20.03 & Latest C Compile File (e.g., mingw).
 * Import The Project.
 * Run & Enjoy.
-
 * You Can Also Run The Wonderland.exe from Program Folder.
 * Default Admin ID-Pass is (Dev). But Self Made Account Is Preferred For Best Experience.
 * Visit "About Us" In Program To Know It's Capabilities.
-
+<br>
 <h1 align="center"><img align="center" alt="Coding" width="1000" src="https://i.pinimg.com/originals/22/1d/29/221d29952f5e2bd0b6d39bed33f5cf6c.png"></h1>
