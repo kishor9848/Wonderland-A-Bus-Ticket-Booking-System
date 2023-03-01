@@ -1,6 +1,6 @@
-<h1 align="center"><img width="80" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif"> Wonderland <img width="80" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif"></h1>
+<h1 align="center"><img width="100" src="https://i.pinimg.com/originals/b0/d8/13/b0d813eace73fcced925f2ecc1497f90.png"><br> Wonderland</h1>
 
-<h2 align="center"><img width="30" src="https://i.pinimg.com/originals/9a/ad/9d/9aad9d130fc9bf7a5fd5bdbe1a70bed2.gif">   A-Bus-Ticket-Booking-System   <img width="30" src="https://i.pinimg.com/originals/9a/ad/9d/9aad9d130fc9bf7a5fd5bdbe1a70bed2.gif"></h2>
+<h2 align="center"><img width="50" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif">   A-Bus-Ticket-Booking-System   <img width="50" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif"></h2>
 
 # Perform These Prior To Running
 
