@@ -14,4 +14,4 @@
 <br>
 <h1 align="center">>> Overview <<</h1>
 <h1 align="center"><img align="center" alt="Coding" width="600" src="https://i.pinimg.com/originals/22/1d/29/221d29952f5e2bd0b6d39bed33f5cf6c.png"></h1>
-<h1 align="center"><img align="center" alt="Coding" width="490" src="https://i.pinimg.com/originals/8c/7b/a0/8c7ba0858045234cbb6bf63cbe1ae5d8.png">  <img align="center" alt="Coding" width="490" height="215" src="https://i.pinimg.com/originals/9b/d5/b6/9bd5b6823fbd74805b3dc8be9e02b794.png"></h1>
+<h1 align="center"><img align="center" alt="Coding" width="500" src="https://i.pinimg.com/originals/8c/7b/a0/8c7ba0858045234cbb6bf63cbe1ae5d8.png">  <img align="center" alt="Coding" width="500" height="215" src="https://i.pinimg.com/originals/9b/d5/b6/9bd5b6823fbd74805b3dc8be9e02b794.png"></h1>
