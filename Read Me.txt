@@ -11,7 +11,7 @@ So let's go ahead and purchase the ticket.
 > Make Sure To Use At Least Codeblocks-20.03 & Latest C Compile File (e.g., mingw).
 > Import The Project.
 > Run & Enjoy.
-> You Can Also Run The Wonderland.exe.
+> You Can Also Run The Wonderland.exe [Has some issue in saving ticket using exe].
 > Default Admin ID-Pass is (Dev). But Self Made Account Is Preferred For Best Experience.
 > Tried To Implement Error Handling. Still Some May Exist.
 > Visit "About Us" In Program To Know It's Capabilities.
