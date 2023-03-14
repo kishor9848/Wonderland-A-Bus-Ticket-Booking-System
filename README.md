@@ -1,7 +1,7 @@
 <h1 align="center"><img width="180" src="https://i.pinimg.com/originals/ec/7a/65/ec7a65a7d49e77a1b4ab74e9c450225b.gif"><br> Wonderland</h1>
 
 <h2 align="center"><img width="60" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif">   A-Bus-Ticket-Booking-System   <img width="60" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif"></h2>
-It is a bus ticket demo application that allows you to purchase a ticket, request a cancellation, retrieve your ticket, and determine the cost of the ticket. So let's take a break and book your destination
+It is a bus ticket demo application that allows you to purchase a ticket, request a cancellation, retrieve your ticket, and determine the cost of the ticket. So let's take a break and book your destination.
 
 # Perform These Prior To Running
 
