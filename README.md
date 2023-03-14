@@ -1,7 +1,7 @@
 <h1 align="center"><img width="180" src="https://i.pinimg.com/originals/ec/7a/65/ec7a65a7d49e77a1b4ab74e9c450225b.gif"><br> Wonderland</h1>
 
 <h2 align="center"><img width="60" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif">   A-Bus-Ticket-Booking-System   <img width="60" src="https://i.pinimg.com/originals/90/51/6e/90516e3c0319e97369540da9194c88d3.gif"></h2>
-It is a bus ticket demo application that allows you to purchase a ticket, request a cancellation, retrieve your ticket, and determine the cost of the ticket. So let's go ahead and purchase the ticket.
+It is a bus ticket demo application that allows you to purchase a ticket, request a cancellation, retrieve your ticket, and determine the cost of the ticket. So let's take a break and book your destination
 
 # Perform These Prior To Running
 
@@ -9,7 +9,7 @@ It is a bus ticket demo application that allows you to purchase a ticket, reques
 * Make Sure To Use At Least Codeblocks-20.03 & Latest C Compile File (e.g., mingw).
 * Import The Project.
 * Run & Enjoy.
-* You Can Also Run The Wonderland.exe.
+* You Can Also Run The Wonderland.exe [Has some issue in saving ticket using exe].
 * Default Admin ID-Pass is (Dev). But Self Made Account Is Preferred For Best Experience.
 * Tried To Implement Error Handling. Still Some May Exist.
 * Visit "About Us" In Program To Know It's Capabilities.
