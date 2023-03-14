@@ -9,7 +9,7 @@ It is a bus ticket demo application that allows you to purchase a ticket, reques
 * Make Sure To Use At Least Codeblocks-20.03 & Latest C Compile File (e.g., mingw).
 * Import The Project.
 * Run & Enjoy.
-* You Can Also Run The Wonderland.exe from Program Folder.
+* You Can Also Run The Wonderland.exe.
 * Default Admin ID-Pass is (Dev). But Self Made Account Is Preferred For Best Experience.
 * Visit "About Us" In Program To Know It's Capabilities.
 <br>
