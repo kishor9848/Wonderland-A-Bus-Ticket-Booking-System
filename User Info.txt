@@ -1,3 +1,0 @@
-Name		Number		Email
---------------------------------------------
-Dev	01300000000	dev@wonderland.com
