@@ -271,14 +271,6 @@ info_review_change_label:
 }
 
 
-
-
-
-
-
-
-
-
 void about()
 {
     system("cls");
@@ -287,15 +279,15 @@ void about()
     printf("=======================================  Wonderland Bus Ticket Booking C Program =======================================\n");
     printf("========================================================================================================================\n");
     printf("\n\n");
-    printf("                            This Is An Imaginary Bus Ticket Booking Program Created By Shourav Deb.");
+    printf("                            This Is An Imaginary Bus Ticket Booking Program Created By Prashant Chaudhary");
     printf("\n\n\n                                   *  Here You Can Book A Ticket In A Snip For Your Destination.");
     printf("\n                                    *  You Can Recover Booked Ticket In-case Of Real One Lost. \n");
     printf("                                      *  Also, You Submit a Request To Cancel You Booking. \n");
     printf("                                        *  Additionally Can Calculate The Fair Cost.");
     printf("\n\n");
     printf("\n\n\n\n");
-    printf("                                                                        >>>> [ Talk To Me: heyneeddev@gmail.com ] <<<<");
-//    Author Info                                                                                                                                                                                                                                      Copyright © 2022 by Shourav Dev. All Rights Reserved.
+    printf("                                                                        >>>> [ Talk To Me: prashantchaudhary@gmail.com ] <<<<");
+    
     printf("\n\n");
     printf("\n\n");
     printf("");
@@ -314,14 +306,14 @@ void ticketrecover()
 {
     system("cls");
     system("Color 30");
-    char bkashticket[50];
+    char esewaticket[50];
     printf("\n\n\n");
     printf("================   Ticket Recover   ===================================================================================\n\n\n");
 
     printf("\n\n\n");
     printf("    ==>> Enter Your Transaction ID Used For During Payment.");
     printf("\n\n\n    =}} ");
-    scanf("%s",bkashticket);
+    scanf("%s",esewaticket);
 
 
 
@@ -330,7 +322,7 @@ void ticketrecover()
     char chadd[60]=" no TxID Ticket.txt";
 
 
-    strcpy(bk, bkashticket);
+    strcpy(bk, esewaticket);
     strcat(bk, chadd);
 
 
@@ -365,7 +357,7 @@ void ticketrecover()
 
 
 
-////////////////////////////////////////////////////////////////          Menu Point          //////////////////////////////////////////////////////////////////////                                                                                                                                                                                                                                     Copyright © 2022 by Shourav Dev. All Rights Reserved.
+////////////////////////////////////////////////////////////////          Menu Point          //////////////////////////////////////////////////////////////////////                                                                                                                                                           
 
 
 
@@ -469,9 +461,9 @@ void book() ////////////////////////////////////////////////////////////////////
         printf("\n\n\n");
         printf("            (i)==>\tFrom Where You Want To Start Your Journey ?");
         printf("\n\n");
-        printf("                        1.Dhaka.");
+        printf("                        1.Kathmandu.");
         printf("\n");
-        printf("                        2.Chattogram.");
+        printf("                        2.Chitwan.");
         printf("\n");
         printf("\n");
         printf("\n");
@@ -490,7 +482,7 @@ void book() ////////////////////////////////////////////////////////////////////
 
     if(pick==1)
     {
-        strcpy(get_on,"Dhaka");
+        strcpy(get_on,"Kathmandu");
         do
         {
             system("cls");
@@ -500,11 +492,11 @@ void book() ////////////////////////////////////////////////////////////////////
             printf("\n\n\n");
             printf("            (ii)==>\tWhere You Want To Get Off ?");
             printf("\n\n");
-            printf("                        1.Feni.");
+            printf("                        1.Nepalgunj.");
             printf("\n");
-            printf("                        2.Sitakund.");
+            printf("                        2.Dhangadhi.");
             printf("\n");
-            printf("                        3.Chattogram.");
+            printf("                        3.Chitwan.");
             printf("\n");
             printf("\n");
             printf("\n");
@@ -520,23 +512,23 @@ void book() ////////////////////////////////////////////////////////////////////
         if(x==1)
         {
             price=price+300;
-            strcpy(off_point,"Feni");
+            strcpy(off_point,"Nepalgunj");
         }
         else if(x==2)
         {
-            strcpy(off_point,"Sitakund");
+            strcpy(off_point,"Dhangadhi");
             price=price+400;
         }
         else
         {
-            strcpy(off_point,"Chattogram");
+            strcpy(off_point,"Chitwan");
             price=price+500;
         }
 
     }
     else if(pick==2)
     {
-        strcpy(get_on,"Chattogram");
+        strcpy(get_on,"Chitwan");
         do
         {
             system("cls");
@@ -546,11 +538,11 @@ void book() ////////////////////////////////////////////////////////////////////
             printf("\n\n\n");
             printf("           (ii)==>\tWhere You Want To Get Off ?");
             printf("\n\n");
-            printf("                        1.Sitakund.");
+            printf("                        1.Dhangadhi.");
             printf("\n");
-            printf("                        2.Feni.");
+            printf("                        2.Nepalgunj.");
             printf("\n");
-            printf("                        3.Dhaka.");
+            printf("                        3.Kathmandu.");
             printf("\n");
             printf("\n");
             printf("\n");
@@ -565,17 +557,17 @@ void book() ////////////////////////////////////////////////////////////////////
         while (y>3);
         if(y==1)
         {
-            strcpy(off_point,"Sitakund");
+            strcpy(off_point,"Dhangadhi");
             price=price+300;
         }
         else if(y==2)
         {
             price=price+400;
-            strcpy(off_point,"Feni");
+            strcpy(off_point,"Nepalgunj");
         }
         else
         {
-            strcpy(off_point,"Dhaka");
+            strcpy(off_point,"Kathmandu");
             price=price+500;
         }
 
@@ -694,15 +686,15 @@ total1:
 
 // Bus sit list
 
-    if(w==1 && z==1 && pick==2) // AC_Day_C_Dhaka
+    if(w==1 && z==1 && pick==2) // AC_Day_C_Kathmandu
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Chattogram To Dhaka (AC Service)\n");
+        printf("\t       Chitwan To Kathmandu (AC Service)\n");
         printf("\t   --------------------------------------\n\n");
         FILE *file;
-        file=fopen("AC_Day_C_Dhaka.txt","r");
+        file=fopen("AC_Day_C_Kathmandu.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -714,15 +706,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==1 && z==1 && pick==1) // AC_Day_Dhaka_C
+    else if(w==1 && z==1 && pick==1) // AC_Day_Kathmandu_C
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Dhaka To Chattogram (AC Service)\n");
+        printf("\t       Kathmandu To Chitwan (AC Service)\n");
         printf("\t     -----------------------------------\n\n");
         FILE *file;
-        file=fopen("AC_Day_Dhaka_C.txt","r");
+        file=fopen("AC_Day_Kathmandu_C.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -736,15 +728,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==1 && z==2 && pick==2) // AC_Night_C_Dhaka
+    else if(w==1 && z==2 && pick==2) // AC_Night_C_Kathmandu
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Chattogram To Dhaka (AC Service)\n");
+        printf("\t       Chitwan To Kathmandu (AC Service)\n");
         printf("\t   --------------------------------------\n\n");
         FILE *file;
-        file=fopen("AC_Night_C_Dhaka.txt","r");
+        file=fopen("AC_Night_C_Kathmandu.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -756,15 +748,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==1 && z==2 && pick==1) // AC_Night_Dhaka_C
+    else if(w==1 && z==2 && pick==1) // AC_Night_Kathmandu_C
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Dhaka To Chattogram (AC Service)\n");
+        printf("\t       Kathmandu To Chitwan (AC Service)\n");
         printf("\t   --------------------------------------\n\n");
         FILE *file;
-        file=fopen("AC_Night_Dhaka_C.txt","r");
+        file=fopen("AC_Night_Kathmandu_C.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -776,15 +768,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==2 && z==1 && pick==2) // Non AC_Day_C_Dhaka
+    else if(w==2 && z==1 && pick==2) // Non AC_Day_C_Kathmandu
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t        Chattogram To Dhaka\n");
+        printf("\t        Chitwan To Kathmandu\n");
         printf("\t   ----------------------------\n\n");
         FILE *file;
-        file=fopen("Non AC_Day_C_Dhaka.txt","r");
+        file=fopen("Non AC_Day_C_Kathmandu.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -796,15 +788,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==2 && z==1 && pick==1) // Non AC_Day_Dhaka_C
+    else if(w==2 && z==1 && pick==1) // Non AC_Day_Kathmandu_C
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Dhaka To Chattogram\n");
+        printf("\t       Kathmandu To Chitwan\n");
         printf("\t   ----------------------------\n\n");
         FILE *file;
-        file=fopen("Non AC_Day_Dhaka_C.txt","r");
+        file=fopen("Non AC_Day_Kathmandu_C.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -816,15 +808,15 @@ total1:
         fclose(file);
     }
 
-    else if(w==2 && z==2 && pick==2) // Non AC_Night_C_Dhaka
+    else if(w==2 && z==2 && pick==2) // Non AC_Night_C_Kathmandu
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t        Chattogram To Dhaka\n");
+        printf("\t        Chitwan To Kathmandu\n");
         printf("\t   ----------------------------\n\n");
         FILE *file;
-        file=fopen("Non AC_Night_C_Dhaka.txt","r");
+        file=fopen("Non AC_Night_C_Kathmandu.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -837,15 +829,15 @@ total1:
     }
 
 
-    else if(w==2 && z==2 && pick==1) // Non AC_Night_Dhaka_C
+    else if(w==2 && z==2 && pick==1) // Non AC_Night_Kathmandu_C
     {
         system("cls");
         char copy[2];
         int m=0;
-        printf("\t       Dhaka To Chattogram\n");
+        printf("\t       Kathmandu To Chitwan\n");
         printf("\t   ----------------------------\n\n");
         FILE *file;
-        file=fopen("Non AC_Night_Dhaka_C.txt","r");
+        file=fopen("Non AC_Night_Kathmandu_C.txt","r");
         while(!feof(file))
         {
             fscanf(file,"%s",copy);
@@ -954,15 +946,15 @@ total1:
 fake:
     system("cls");
     system("Color 1F");
-    char bkash[50];
+    char esewa[50];
 
     printf("\n\n\n");
     printf("================   Payment   ==========================================================================================\n\n\n");
 
     printf("\n\n\n");
-    printf("    ==>> Send %d tk to 01700000000 using Bkash. After Payment Enter Your Transaction ID (It will show aside of TrxID).",price);
+    printf("    ==>> Send %d Rs to 9700000000 using esewa. After Payment Enter Your Transaction ID (It will show aside of TrxID).This is a hypothetical bus ticket booking system for now. Please enter the following transaction IDs: 5C424PC2WM, A57SDF378A, 5H75L4A56W, and 6AV4Q652D4.",price);
     printf("\n\n\n    =}} ");
-    scanf("%s",&bkash);
+    scanf("%s",&esewa);
 
 
     /// Cheak Transaction ID
@@ -979,7 +971,7 @@ fake:
     while(fgets(part,300,fp)!=NULL)
     {
         fgets(part,300,fp);
-        if(strstr(part,bkash)!=NULL)
+        if(strstr(part,esewa)!=NULL)
             flag=1;
     }
     if(flag==1)
@@ -1057,7 +1049,7 @@ match:
     char chadd[60]=" no TxID Ticket.txt";
 
 
-    strcpy(bk, bkash);
+    strcpy(bk, esewa);
     strcat(bk, chadd);
 
     FILE *file3;
@@ -1081,21 +1073,21 @@ match:
     fprintf(file3, "                            [^_^]  Enjoy Your Journey  [^_^]\n\n");
     fclose(file3);
 /// File input
-    if(w==1 && z==1 && pick==2) // AC_Day_C_Dhaka
+    if(w==1 && z==1 && pick==2) // AC_Day_C_Kathmandu
         strcpy(bus_type,"[1]");
-    else if(w==1 && z==1 && pick==1) // AC_Day_Dhaka_C
+    else if(w==1 && z==1 && pick==1) // AC_Day_Kathmandu_C
         strcpy(bus_type,"[2]");
-    else if(w==1 && z==2 && pick==2) // AC_Night_C_Dhaka
+    else if(w==1 && z==2 && pick==2) // AC_Night_C_Kathmandu
         strcpy(bus_type,"[3]");
-    else if(w==1 && z==2 && pick==1) // AC_Night_Dhaka_C
+    else if(w==1 && z==2 && pick==1) // AC_Night_Kathmandu_C
         strcpy(bus_type,"[4]");
-    else if(w==2 && z==1 && pick==2) // Non AC_Day_C_Dhaka
+    else if(w==2 && z==1 && pick==2) // Non AC_Day_C_Kathmandu
         strcpy(bus_type,"[5]");
-    else if(w==2 && z==1 && pick==1) // Non AC_Day_Dhaka_C
+    else if(w==2 && z==1 && pick==1) // Non AC_Day_Kathmandu_C
         strcpy(bus_type,"[6]");
-    else if(w==2 && z==2 && pick==2) // Non AC_Night_C_Dhaka
+    else if(w==2 && z==2 && pick==2) // Non AC_Night_C_Kathmandu
         strcpy(bus_type,"[7]");
-    else if(w==2 && z==2 && pick==1) // Non AC_Night_Dhaka_C
+    else if(w==2 && z==2 && pick==1) // Non AC_Night_Kathmandu_C
         strcpy(bus_type,"[8]");
 
 
@@ -1107,7 +1099,7 @@ match:
 
     file=fopen("Ticket Details.txt","a");
 
-    fprintf(file,"\n%s\t%s\t%d\t%s\t%d\t%s",bkash,bus_type,total,fullname_detail,number_detail,email_detail);
+    fprintf(file,"\n%s\t%s\t%d\t%s\t%d\t%s",esewa,bus_type,total,fullname_detail,number_detail,email_detail);
     fclose(file);
 
 
@@ -1132,12 +1124,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("AC_Day_C_Dhaka.txt");
+            char *content = readFile("AC_Day_C_Kathmandu.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "AC_Day_C_Dhaka.txt";
+            char f[] = "AC_Day_C_Kathmandu.txt";
 
             Replace(content, c, d, f);
         }
@@ -1148,12 +1140,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("AC_Day_Dhaka_C.txt");
+            char *content = readFile("AC_Day_Kathmandu_C.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "AC_Day_Dhaka_C.txt";
+            char f[] = "AC_Day_Kathmandu_C.txt";
 
             Replace(content, c, d, f);
         }
@@ -1164,12 +1156,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("AC_Night_C_Dhaka.txt");
+            char *content = readFile("AC_Night_C_Kathmandu.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "AC_Night_C_Dhaka.txt";
+            char f[] = "AC_Night_C_Kathmandu.txt";
 
             Replace(content, c, d, f);
         }
@@ -1180,12 +1172,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("AC_Night_Dhaka_C.txt");
+            char *content = readFile("AC_Night_Kathmandu_C.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "AC_Night_Dhaka_C.txt";
+            char f[] = "AC_Night_Kathmandu_C.txt";
 
             Replace(content, c, d, f);
         }
@@ -1196,12 +1188,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("Non AC_Day_C_Dhaka.txt");
+            char *content = readFile("Non AC_Day_C_Kathmandu.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "Non AC_Day_C_Dhaka.txt";
+            char f[] = "Non AC_Day_C_Kathmandu.txt";
 
             Replace(content, c, d, f);
         }
@@ -1212,12 +1204,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("Non AC_Day_Dhaka_C.txt");
+            char *content = readFile("Non AC_Day_Kathmandu_C.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "Non AC_Day_Dhaka_C.txt";
+            char f[] = "Non AC_Day_Kathmandu_C.txt";
 
             Replace(content, c, d, f);
         }
@@ -1228,12 +1220,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("Non AC_Night_C_Dhaka.txt");
+            char *content = readFile("Non AC_Night_C_Kathmandu.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "Non AC_Night_C_Dhaka.txt";
+            char f[] = "Non AC_Night_C_Kathmandu.txt";
 
             Replace(content, c, d, f);
         }
@@ -1244,12 +1236,12 @@ match:
         for(int i=1; i<total+1; i++)
         {
 
-            char *content = readFile("Non AC_Night_Dhaka_C.txt");
+            char *content = readFile("Non AC_Night_Kathmandu_C.txt");
 
             char c[20];
             sprintf(c, "%d", a[i]);
             char d[] = "XX";
-            char f[] = "Non AC_Night_Dhaka_C.txt";
+            char f[] = "Non AC_Night_Kathmandu_C.txt";
 
             Replace(content, c, d, f);
         }
@@ -1395,9 +1387,9 @@ void calculate()                                          ///                  c
         printf("\n\n\n");
         printf("            (i)==>    From Where You Want To Start Your Journey?");
         printf("\n\n");
-        printf("                            1.Dhaka.");
+        printf("                            1.Kathmandu.");
         printf("\n");
-        printf("                            2.Chattogram.");
+        printf("                            2.Chitwan.");
         printf("\n");
         printf("\n");
         printf("\n");
@@ -1424,11 +1416,11 @@ void calculate()                                          ///                  c
             printf("\n\n\n");
             printf("            (ii)==>    Where You Want To Get Off ?");
             printf("\n\n");
-            printf("                        1.Feni.");
+            printf("                        1.Nepalgunj.");
             printf("\n");
-            printf("                        2.Sitakund.");
+            printf("                        2.Dhangadhi.");
             printf("\n");
-            printf("                        3.Chattogram.");
+            printf("                        3.Chitwan.");
             printf("\n");
             printf("\n");
             printf("\n");
@@ -1459,11 +1451,11 @@ void calculate()                                          ///                  c
             printf("\n\n\n");
             printf("           (ii)==>    Where You Want To Get Off  ?");
             printf("\n\n");
-            printf("                        1.Sitakund.");
+            printf("                        1.Dhangadhi.");
             printf("\n");
-            printf("                        2.Feni.");
+            printf("                        2.Nepalgunj.");
             printf("\n");
-            printf("                        3.Dhaka.");
+            printf("                        3.Kathmandu.");
             printf("\n");
             printf("\n");
             printf("\n");
@@ -1573,7 +1565,7 @@ total1_x:
     printf("\n\n\n");
     printf("=============== Total Cost ============================================================================================\n\n\n");
 
-    printf("\n\n\n        Your Total Cost Will Be: %d tk. Thank You.",priceey);
+    printf("\n\n\n        Your Total Cost Will Be: %d Rs. Thank You.",priceey);
 
 
 
